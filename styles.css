@@ -1,0 +1,113 @@
+body, html{
+    margin: 0 auto;
+    padding: 0 auto;
+    scroll-behavior: smooth;
+    background-color:white;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header_container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img{
+    width: 64px;
+    height: 64px;
+}
+
+.menu_right{
+    width: 60vw;
+}
+
+.menu_right ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.menu_left{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_left ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.separador{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.contaier_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filtros h2{
+    font-size: 20px;
+}
+.filtros button{
+    margin-top: 20px;
+}
+
+.filter_buttons{
+    gap: 5px;
+}
+
+.model_menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.class_section{
+
+}
+
+
+.class_section img{
+    
+}
+
+a{
+    text-decoration: none;
+    color: gray
+}
